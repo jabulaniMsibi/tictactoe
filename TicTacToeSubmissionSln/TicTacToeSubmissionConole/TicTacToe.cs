@@ -54,7 +54,6 @@ namespace TicTacToeSubmissionConole
                     }
                 }
             }
-
             if (int.Parse(row) == 1)
             {
                 if (int.Parse(column) == 0 || int.Parse(column) == 1 || int.Parse(column) == 2)

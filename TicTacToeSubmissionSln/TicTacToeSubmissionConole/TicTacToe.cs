@@ -50,7 +50,7 @@ namespace TicTacToeSubmissionConole
                     }
                     if (topRow[0] == "a" && topRow[1] == "a" && topRow[2] == "a")
                     {
-                        Console.WriteLine(" You have won !");
+                        Console.WriteLine(" Player X has won !");
                     }
                 }
             }
@@ -65,7 +65,7 @@ namespace TicTacToeSubmissionConole
                     }
                     if (midRow[0] == "a" && midRow[1] == "a" && midRow[2] == "a")
                     {
-                        Console.WriteLine(" You have won !");
+                        Console.WriteLine(" Player X has won !");
                     }
                 }
             }
@@ -79,40 +79,40 @@ namespace TicTacToeSubmissionConole
                     }
                     if (bottRow[0] == "a" && bottRow[1] == "a" && bottRow[2] == "a")
                     {
-                        Console.WriteLine(" You have won !");
+                        Console.WriteLine(" Player X has won !");
                     }
                 }
             }
 
             if (topRow[0] == "a" && midRow[0] == "a" && bottRow[0] == "a")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player X has won !");
             }
 
             if (topRow[1] == "a" && midRow[1] == "a" && bottRow[1] == "a")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player X has won !");
             }
 
             if (topRow[2] == "a" && midRow[2] == "a" && bottRow[2] == "a")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player X has won !");
             }
 
             if (topRow[0] == "a" && midRow[1] == "a" && bottRow[2] == "a")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player X has won !");
             }
 
             if (topRow[2] == "a" && midRow[1] == "a" && bottRow[0] == "a")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player X has won !");
             }
 
-            RunPayerl2();
+            RunPlayer2();
         }
 
-        public void RunPayerl2()
+        public void RunPlayer2()
         {
             // FOR ILLUSTRATION CHANGE TO YOUR OWN LOGIC TO DO TIC TAC TOE
 
@@ -140,7 +140,7 @@ namespace TicTacToeSubmissionConole
                     }
                     if (topRow[0] == "b" && topRow[1] == "b" && topRow[2] == "b")
                     {
-                        Console.WriteLine(" You have won !");
+                        Console.WriteLine(" Player O has won !");
                     }
                 }
             }
@@ -155,7 +155,7 @@ namespace TicTacToeSubmissionConole
                     }
                     if (midRow[0] == "b" && midRow[1] == "b" && midRow[2] == "b")
                     {
-                        Console.WriteLine(" You have won !");
+                        Console.WriteLine(" Player O has won !");
                     }
                 }
             }
@@ -170,34 +170,34 @@ namespace TicTacToeSubmissionConole
                     }
                     if (bottRow[0] == "b" && bottRow[1] == "b" && bottRow[2] == "b")
                     {
-                        Console.WriteLine(" You have won !");
+                        Console.WriteLine(" Player O has won !");
                     }
                 }
             }
 
             if (topRow[0] == "b" && midRow[0] == "b" && bottRow[0] == "b")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player O has won !");
             }
 
             if (topRow[1] == "b" && midRow[1] == "b" && bottRow[1] == "b")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player O has won !");
             }
 
             if (topRow[2] == "b" && midRow[2] == "b" && bottRow[2] == "b")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player O has won !");
             }
 
             if (topRow[0] == "b" && midRow[1] == "b" && bottRow[2] == "b")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player O has won !");
             }
 
             if (topRow[2] == "b" && midRow[1] == "b" && bottRow[0] == "b")
             {
-                Console.WriteLine(" You have won !");
+                Console.WriteLine(" Player O has won !");
             }
 
             Run();
